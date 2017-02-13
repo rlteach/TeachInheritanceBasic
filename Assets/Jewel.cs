@@ -5,7 +5,7 @@ public abstract	class Jewel : MonoBehaviour {
 
 	public	static	readonly	string	JewelTag="Jewel";
 
-
+	[HideInInspector]
 	public	SpriteRenderer	mSR;			//Allows derived classes to access this
 	public	Rigidbody2D		mRB;			//Allows derived classes to access this
 

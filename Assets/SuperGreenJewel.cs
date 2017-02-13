@@ -17,7 +17,7 @@ public class SuperGreenJewel : GreenJewel {		//Inherits functionallity from Jewe
 
 	protected	override void CollidedWith(Jewel vJewel) {		//Default collide action
 		mRB.angularVelocity /= 2.0f;		//Slow down
-		vJewel.mRB.angularVelocity = -mRB.angularVelocity; //Transfer reverse to other one
+		vJewel. = -mRB.angularVelocity; //Transfer reverse to other one
 	}
 	protected	override bool AllowCollisionAction {		//We override this to not die on collision
 		get {
